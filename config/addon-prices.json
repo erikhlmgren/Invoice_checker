@@ -1,0 +1,100 @@
+{
+  "_comment": "Add-on surcharges applied on top of the base lens price.",
+  "_comment2": "pricePerLens: cost per individual lens (multiply by quantity for total).",
+  "_comment3": "confirmed: true = verified from price list or supplier. false = not yet confirmed.",
+  "_comment4": "AI-updatable: when a pattern is identified from invoice data, add it here and set confirmed: false until verified.",
+
+  "addons": [
+    {
+      "name": "i.Scription",
+      "pattern": "i\\.?Scription",
+      "pricePerLens": 240,
+      "confirmed": true,
+      "source": "CZV price list last page"
+    },
+    {
+      "name": "DuraVision Sun UV",
+      "pattern": "DV SUN",
+      "pricePerLens": 103,
+      "confirmed": true,
+      "source": "CZV price list page 12"
+    },
+    {
+      "name": "DuraVision Plus Sun UV",
+      "pattern": "DV PLUS SUN|DURAVSION PLUS SUN",
+      "pricePerLens": 138,
+      "confirmed": true,
+      "source": "CZV price list page 12"
+    },
+    {
+      "name": "DVC on Officelens Plus 1.5",
+      "pattern": "DVC.*OFFICELENS|OFFICELENS.*DVC",
+      "pricePerLens": 26,
+      "confirmed": true,
+      "source": "CZV price list page 12"
+    },
+    {
+      "name": "OPTIMA VERSION",
+      "pattern": "OPTIMA VERSION",
+      "pricePerLens": null,
+      "confirmed": false,
+      "note": "SV (enkelstyrke): 92 SEK/glas. Progressive (flerstyrke): 0 SEK (free). Cannot apply automatically — requires lens type check."
+    },
+    {
+      "name": "STANDARD DIA., NO RE",
+      "pattern": "STANDARD DIA",
+      "pricePerLens": null,
+      "confirmed": false,
+      "note": "Standard diameter surcharge — confirm price with supplier"
+    },
+    {
+      "name": "SPEC.THICKNESS",
+      "pattern": "SPEC\\.THICKNESS|SPEC THICKNESS",
+      "pricePerLens": null,
+      "confirmed": false,
+      "note": "Special thickness surcharge — confirm price with supplier"
+    },
+    {
+      "name": "Helfärg (solid tint)",
+      "pattern": "BROWN\\d+%|BLACK\\d+%|GREY\\d+%|GRAU\\d+(?!UATE)%|SKYLETSPORT\\d+%|SKYLETROAD\\d+%",
+      "pricePerLens": 34,
+      "confirmed": true,
+      "source": "CZV price list last page — Färg column, Helfärg row"
+    },
+    {
+      "name": "Gradalfärg (gradient tint)",
+      "pattern": "GRAUGRADUATE|BROWNGRADUATE|BLACKGRADUATE|PIONEERGRADUATE|BROWN\\d+/\\d+%|GREY\\d+/\\d+%|GRAU\\d+/\\d+%",
+      "pricePerLens": 69,
+      "confirmed": true,
+      "source": "CZV price list last page — Färg column, Gradalfärg row"
+    },
+    {
+      "name": "Bicolor tint",
+      "pattern": "NONSTANDARDBI-COLOUR|BICOLOU?R",
+      "pricePerLens": 103,
+      "confirmed": true,
+      "source": "CZV price list last page — Färg column, Bicolor row"
+    },
+    {
+      "name": "NONSTANDARDGRADUATED",
+      "pattern": "NONSTANDARDGRADUATED",
+      "pricePerLens": null,
+      "confirmed": false,
+      "note": "Non-standard graduated design surcharge — confirm price with supplier"
+    },
+    {
+      "name": "THIN (special edge thickness)",
+      "pattern": "\"?THIN\"?",
+      "pricePerLens": null,
+      "confirmed": false,
+      "note": "Special edge thickness surcharge — confirm price with supplier"
+    },
+    {
+      "name": "NO REDUCTION",
+      "pattern": "NO REDUCTION",
+      "pricePerLens": null,
+      "confirmed": false,
+      "note": "No reduction discount applied — confirm with supplier"
+    }
+  ]
+}

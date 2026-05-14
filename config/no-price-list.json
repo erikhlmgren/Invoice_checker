@@ -1,0 +1,48 @@
+{
+  "_comment": "Products that have no price list and should not be price-checked.",
+  "_comment2": "These show as NO_PRICE_LIST (grey) in the report instead of NOT_FOUND (orange).",
+  "_comment3": "pattern: case-insensitive substring match against the product name.",
+
+  "categories": [
+    {
+      "pattern": "FZEISS",
+      "reason": "ZEISS frames — no frame price list available"
+    },
+    {
+      "pattern": "Kunoqvist",
+      "reason": "Frame brand — no price list available"
+    },
+    {
+      "pattern": "WeSC",
+      "reason": "Frame brand — no price list available"
+    },
+    {
+      "pattern": "NPS 2025",
+      "reason": "Frame brand — no price list available"
+    },
+    {
+      "pattern": "METALL/KUNSTSTOFF",
+      "reason": "Safety frame package (C-market) — not standard ophthalmic pricing"
+    },
+    {
+      "pattern": "METAL/PLASTIC",
+      "reason": "Safety frame package (C-market) — not standard ophthalmic pricing"
+    },
+    {
+      "pattern": "ROUND CASE",
+      "reason": "Lens case — not a lens product, no price list"
+    },
+    {
+      "pattern": "CE&F",
+      "reason": "Safety frame package (C-market) — not standard ophthalmic pricing"
+    },
+    {
+      "pattern": "HOYA",
+      "reason": "HOYA SafeVision safety package — price matching not yet implemented"
+    },
+    {
+      "pattern": "BBGR",
+      "reason": "BBGR safety glass package — price matching not yet implemented"
+    }
+  ]
+}

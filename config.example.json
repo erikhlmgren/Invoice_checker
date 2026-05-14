@@ -1,0 +1,43 @@
+{
+  "synologen": {
+    "loginUrl": "https://www.synologen.se/",
+    "step1": {
+      "username": "your-username",
+      "password": "your-password"
+    },
+    "step2": {
+      "username": "your-second-username",
+      "password": "your-second-password"
+    }
+  },
+  "smtp": {
+    "_note": "Gmail: host=smtp.gmail.com, port=587. Password must be an App Password (not your Gmail login password).",
+    "_appPassword": "Enable 2-Step Verification at myaccount.google.com, then generate an App Password under Security → App passwords.",
+    "host": "smtp.gmail.com",
+    "port": 587,
+    "user": "your-gmail@gmail.com",
+    "password": "xxxx xxxx xxxx xxxx",
+    "from": "your-gmail@gmail.com",
+    "to": "moms-email@example.com"
+  },
+  "sendEmail": true,
+  "priceLists": {
+    "zeiss":           "data/price-lists/2026.04 Price list ZEISS.pdf",
+    "czv-synchrony":   "data/price-lists/SYNCHRONY Prislista 2025.pdf",
+    "cooper":          "data/price-lists/Cooper Vision 2026.pdf",
+    "bausch-lomb":     "data/price-lists/Bausch+Lomb prislista Synologen 1 april 2026.pdf",
+    "jj":              "data/price-lists/Jonhson o Jonhson prislista 2026.pdf",
+    "alcon":           "data/price-lists/Alcon 2026.pdf",
+    "clearlii":        "data/price-lists/Clearlii Professional_2025 - Synologen_Priser_Inkl MF.pdf",
+    "hoya":            "data/price-lists/HOYA SafeVision Pricelists 2025.pdf",
+    "bbgr":            "data/price-lists/SAFETY BBGR Prislista 2025 inkl. bågsortiment.pdf",
+    "zeiss-safety":    "data/price-lists/Zeiss_Safety_Pricelist_202502.pdf",
+    "maui-jim":        "data/price-lists/Price List MAUI JIM_2026-03-01_SEK Plano (WHLS+MSRP).pdf"
+  },
+  "outputPath": "output/results.xlsx",
+  "schedule": {
+    "dayOfMonth": [5],
+    "hour": 8,
+    "minute": 0
+  }
+}

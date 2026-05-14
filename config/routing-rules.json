@@ -1,0 +1,188 @@
+{
+  "_comment": "Routing rules: maps product name patterns to vendor + price list file.",
+  "_comment2": "Rules are checked in order. First match wins.",
+  "_comment3": "pattern: case-insensitive substring match against the product name.",
+  "_comment4": "priceList: filename inside data/price-lists/",
+
+  "rules": [
+    {
+      "pattern": "synchrony",
+      "vendor": "Synchrony",
+      "priceList": "SYNCHRONY Prislista 2025.pdf"
+    },
+    {
+      "pattern": "ZEISS",
+      "vendor": "Carl Zeiss Vision",
+      "priceList": "CZV Prislista 2025-04.pdf"
+    },
+    {
+      "pattern": "FZEISS",
+      "vendor": "Carl Zeiss Vision",
+      "priceList": "CZV Prislista 2025-04.pdf"
+    },
+    {
+      "pattern": "ACUVUE",
+      "vendor": "Johnson & Johnson",
+      "priceList": "Jonhson o Jonhson prislista 2026.pdf"
+    },
+    {
+      "pattern": "Clearlii",
+      "vendor": "Clearlii",
+      "priceList": "Clearlii Professional_2025 - Synologen_Priser_Inkl MF.pdf"
+    },
+    {
+      "pattern": "BIOFINITY",
+      "vendor": "CooperVision",
+      "priceList": "Cooper Vision 2026 (1).pdf"
+    },
+    {
+      "pattern": "MYDAY",
+      "vendor": "CooperVision",
+      "priceList": "Cooper Vision 2026 (1).pdf"
+    },
+    {
+      "pattern": "AVAIRA",
+      "vendor": "CooperVision",
+      "priceList": "Cooper Vision 2026 (1).pdf"
+    },
+    {
+      "pattern": "PROCLEAR",
+      "vendor": "CooperVision",
+      "priceList": "Cooper Vision 2026 (1).pdf"
+    },
+    {
+      "pattern": "BIOMEDICS",
+      "vendor": "CooperVision",
+      "priceList": "Cooper Vision 2026 (1).pdf"
+    },
+    {
+      "pattern": "CLARITI",
+      "vendor": "CooperVision",
+      "priceList": "Cooper Vision 2026 (1).pdf"
+    },
+    {
+      "pattern": "LIVE",
+      "vendor": "CooperVision",
+      "priceList": "Cooper Vision 2026 (1).pdf"
+    },
+    {
+      "pattern": "DAILIES",
+      "vendor": "Alcon",
+      "priceList": "Alcon 2026.pdf"
+    },
+    {
+      "pattern": "AIR OPTIX",
+      "vendor": "Alcon",
+      "priceList": "Alcon 2026.pdf"
+    },
+    {
+      "pattern": "PRECISION1",
+      "vendor": "Alcon",
+      "priceList": "Alcon 2026.pdf"
+    },
+    {
+      "pattern": "PRECISION7",
+      "vendor": "Alcon",
+      "priceList": "Alcon 2026.pdf"
+    },
+    {
+      "pattern": "TOTAL 30",
+      "vendor": "Alcon",
+      "priceList": "Alcon 2026.pdf"
+    },
+    {
+      "pattern": "FreshLook",
+      "vendor": "Alcon",
+      "priceList": "Alcon 2026.pdf"
+    },
+    {
+      "pattern": "AOSEPT",
+      "vendor": "Alcon",
+      "priceList": "Alcon 2026.pdf"
+    },
+    {
+      "pattern": "OPTI-FREE",
+      "vendor": "Alcon",
+      "priceList": "Alcon 2026.pdf"
+    },
+    {
+      "pattern": "Systane",
+      "vendor": "Alcon",
+      "priceList": "Alcon 2026.pdf"
+    },
+    {
+      "pattern": "Bausch",
+      "vendor": "Bausch+Lomb",
+      "priceList": "BAUSCH&LOMB Prislista 2025-02.pdf"
+    },
+    {
+      "pattern": "Biotrue",
+      "vendor": "Bausch+Lomb",
+      "priceList": "BAUSCH&LOMB Prislista 2025-02.pdf"
+    },
+    {
+      "pattern": "PureVision",
+      "vendor": "Bausch+Lomb",
+      "priceList": "BAUSCH&LOMB Prislista 2025-02.pdf"
+    },
+    {
+      "pattern": "SofLens",
+      "vendor": "Bausch+Lomb",
+      "priceList": "BAUSCH&LOMB Prislista 2025-02.pdf"
+    },
+    {
+      "pattern": "Soflens",
+      "vendor": "Bausch+Lomb",
+      "priceList": "BAUSCH&LOMB Prislista 2025-02.pdf"
+    },
+    {
+      "pattern": "MAUI",
+      "vendor": "Maui Jim",
+      "priceList": "Price List MAUI JIM_2026-03-01_SEK Plano (WHLS+MSRP).pdf"
+    },
+    {
+      "pattern": "BLUE HAWAII",
+      "vendor": "Maui Jim",
+      "priceList": "Price List MAUI JIM_2026-03-01_SEK Plano (WHLS+MSRP).pdf"
+    },
+    {
+      "pattern": "GREY KUPULAU",
+      "vendor": "Maui Jim",
+      "priceList": "Price List MAUI JIM_2026-03-01_SEK Plano (WHLS+MSRP).pdf"
+    },
+    {
+      "pattern": "H.LAVA",
+      "vendor": "Maui Jim",
+      "priceList": "Price List MAUI JIM_2026-03-01_SEK Plano (WHLS+MSRP).pdf"
+    },
+    {
+      "pattern": "HCL ",
+      "vendor": "Maui Jim",
+      "priceList": "Price List MAUI JIM_2026-03-01_SEK Plano (WHLS+MSRP).pdf"
+    },
+    {
+      "pattern": "HTP ",
+      "vendor": "Maui Jim",
+      "priceList": "Price List MAUI JIM_2026-03-01_SEK Plano (WHLS+MSRP).pdf"
+    },
+    {
+      "pattern": "FRAKT",
+      "vendor": "SHIPPING",
+      "priceList": null
+    },
+    {
+      "pattern": "FREIGHT",
+      "vendor": "SHIPPING",
+      "priceList": null
+    }
+  ],
+
+  "unknowns": [
+    "Kunoqvist",
+    "WeSC",
+    "NPS 2025",
+    "METAL/PLASTIC CE&F",
+    "METALL/KUNSTSTOFF CE&F",
+    "ROUND CASE WITH LOGO"
+  ]
+}
